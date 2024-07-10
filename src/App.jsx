@@ -1,13 +1,15 @@
+import Hero from "./components/Hero"
+import Highlights from "./components/Highlights"
+import Navbar from "./components/Navbar"
+
 function App() {
 
   return (
-    <>
-<div>
-  <p className="text-3xl">
-    Hello my name is
-  </p>
-</div>
-    </>
+<main className="bg-black">
+<Navbar /> 
+<Hero /> 
+<Highlights /> 
+</main>
   )
 }
 
